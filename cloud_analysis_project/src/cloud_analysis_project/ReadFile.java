@@ -2,7 +2,6 @@ package cloud_analysis_project;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.util.Scanner;
 
 public class ReadFile
@@ -62,7 +61,7 @@ public class ReadFile
 	//TODO: this function is for programmer use only
 	public void print_arr()
 	{
-		for(int i=0; i<255; i++)
+		for(int i=0; i<256; i++)
 		{
 			System.out.println(i+": "+ distribution[i]);
 		}
